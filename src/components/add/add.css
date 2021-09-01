@@ -1,0 +1,37 @@
+.add-content {
+    padding: 50px 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-content .input-wrapper input {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid var(--secondary);
+    font-size: 0.9rem;
+    font-family: inherit;
+    font-weight: 400;
+    padding: 0.5rem 1.5rem;
+    color: white;    
+  }
+  
+  .add-content .input-wrapper input::placeholder {
+    color: white;    
+    opacity: 80%;
+  }
+
+  .add-content .input-wrapper input:focus{
+    outline: none;
+  }
+  
+  .results {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .results li {
+    list-style: none;
+  }
